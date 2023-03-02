@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WaterProject.Models.ViewModels
+namespace Mission9.Models.ViewModels
 {
     public class PageInfo
     {

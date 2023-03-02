@@ -7,9 +7,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WaterProject.Models.ViewModels;
+using Mission9.Models.ViewModels;
 
-namespace WaterProject.Infrastructure
+namespace Mission9.Infrastructure
 {
     [HtmlTargetElement("div",Attributes = "page-blah")] 
     public class PaginationTagHelp : TagHelper
@@ -24,7 +24,7 @@ namespace WaterProject.Infrastructure
         [HtmlAttributeNotBound]
         public ViewContext vc { get; set; }
 
-        //Diff tha View Context
+        //Diff than View Context
         public PageInfo PageBlah { get; set; }
         public string PageAction { get; set; }
         public override void Process(TagHelperContext thc, TagHelperOutput tho)

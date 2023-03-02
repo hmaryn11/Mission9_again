@@ -3,10 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WaterProject.Models;
-using WaterProject.Models.ViewModels;
+using Mission9.Models;
+using Mission9.Models.ViewModels;
 
-namespace WaterProject.Controllers
+namespace Mission9.Controllers
 {
     public class HomeController : Controller
     {
@@ -23,18 +23,18 @@ namespace WaterProject.Controllers
 
         public IActionResult Index(int pageNum = 1) //if nothing else comes in, pagenum=1
         {
-            int pageSize = 5;
+            int pageSize = 10;
 
-            var x = new ProjectsViewModel
+            var x = new BooksViewModels
             {
-                Books = repo.Projects
+                Books = repo.Books
                 .OrderBy(b => b.Title)
                 .Skip((pageNum - 1) * pageSize)
                 .Take(pageSize),
 
                 PageInfo = new PageInfo
                 {
-                    TotalNumBooks = repo.Projects.Count(),
+                    TotalNumBooks = repo.Books.Count(),
                     BooksPerPage = pageSize,
                     CurrentPage = pageNum
                 }

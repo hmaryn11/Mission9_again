@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WaterProject.Models
+namespace Mission9.Models
 {
     public interface IBookStoreRepo
     {
-        IQueryable<Project> Projects { get; } // can only read from this data
+        IQueryable<Book> Books { get; } // can only read from this data
     }
 }

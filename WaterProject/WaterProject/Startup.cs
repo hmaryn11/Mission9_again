@@ -7,12 +7,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WaterProject.Models;
+using Mission9.Models;
 using Microsoft.Extensions.Configuration;
 using IConfiguration = Microsoft.Extensions.Configuration.IConfiguration;
 using Microsoft.EntityFrameworkCore;
 
-namespace WaterProject
+namespace Mission9
 {
     public class Startup
     {
@@ -32,11 +32,11 @@ namespace WaterProject
             services.AddControllersWithViews();
 
             //~~~add connection to the databse
-            services.AddDbContext<WaterProjectContext>(options =>
+            services.AddDbContext<BookstoreContext>(options =>
             {
                 options.UseSqlite(Configuration["ConnectionStrings:BookDBConnection"]);
             });
-            services.AddScoped<IBookStoreRepo, EFWaterProjectRepo>();
+            services.AddScoped<IBookStoreRepo, EFBookStoreRepo>();
         }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

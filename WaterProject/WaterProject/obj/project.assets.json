@@ -1198,9 +1198,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Maryn\\Source\\Repos\\Mission9\\WaterProject\\WaterProject\\WaterProject.csproj",
-      "projectName": "WaterProject",
-      "projectPath": "C:\\Users\\Maryn\\Source\\Repos\\Mission9\\WaterProject\\WaterProject\\WaterProject.csproj",
+      "projectUniqueName": "C:\\Users\\Maryn\\Source\\Repos\\Mission9\\WaterProject\\WaterProject\\Mission9.csproj",
+      "projectName": "Mission9",
+      "projectPath": "C:\\Users\\Maryn\\Source\\Repos\\Mission9\\WaterProject\\WaterProject\\Mission9.csproj",
       "packagesPath": "C:\\Users\\Maryn\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Maryn\\Source\\Repos\\Mission9\\WaterProject\\WaterProject\\obj\\",
       "projectStyle": "PackageReference",
