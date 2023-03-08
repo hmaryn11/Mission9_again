@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Mission9"
+    "\\WaterProject",
+    "\\WaterProject\\WaterProject",
+    "\\WaterProject\\WaterProject\\Controllers"
   ],
-  "SelectedNode": "\\Mission9\\WaterProject.sln",
+  "SelectedNode": "\\WaterProject\\WaterProject\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }
