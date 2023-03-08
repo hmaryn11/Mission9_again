@@ -75,3 +75,4 @@ C:\Users\Maryn\Source\Repos\Mission9\WaterProject\WaterProject\obj\Debug\netcore
 C:\Users\Maryn\Source\Repos\Mission9\WaterProject\WaterProject\obj\Debug\netcoreapp3.1\Mission9.csproj.CopyComplete
 C:\Users\Maryn\Source\Repos\Mission9\WaterProject\WaterProject\obj\Debug\netcoreapp3.1\Mission9.genruntimeconfig.cache
 C:\Users\Maryn\Source\Repos\Mission9\WaterProject\WaterProject\obj\Debug\netcoreapp3.1\Mission9.csproj.AssemblyReference.cache
+C:\Users\Maryn\Source\Repos\Mission9\WaterProject\WaterProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ProjSummary.cshtml.g.cs
