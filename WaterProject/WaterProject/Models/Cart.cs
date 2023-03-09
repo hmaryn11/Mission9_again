@@ -27,9 +27,11 @@ namespace Mission9.Models
                 Line.Quantity += qty;
             }
         }
-        public double CalculateTotal(Book book)
+        public double CalculateTotal()
         {
-            double sum = Items.Sum(x => x.Quantity * book.Price);
+            //must find a way to add up all rows instead
+            double sum = Items.Sum(x => x.Quantity * 1);
+         
             return sum;
         }
     }

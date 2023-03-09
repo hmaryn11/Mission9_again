@@ -39,6 +39,9 @@ namespace Mission9
             services.AddScoped<IBookStoreRepo, EFBookStoreRepo>();
 
             services.AddRazorPages();
+
+            services.AddDistributedMemoryCache();
+            services.AddSession();
         }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -49,7 +52,7 @@ namespace Mission9
             }
             //~~~corresponds with wwwrooot
             app.UseStaticFiles();
-
+            app.UseSession();
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>

@@ -26,8 +26,15 @@ using Mission9.Models.ViewModels;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 5 "C:\Users\Maryn\Source\Repos\Mission9\WaterProject\WaterProject\Views\_ViewImports.cshtml"
+using Mission9.Infrastructure;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c7af6e06fee1083ac3175624fca18c55f3c9f592", @"/Views/Shared/_Layout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1d9b054bcb44444ec8f0b0e1cc651602cf042bed", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"730636eab297d5722ab320672b021d66a824c803", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__Layout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private global::AspNetCore.Views_Shared__Layout.__Generated__CategoryViewComponentTagHelper __CategoryViewComponentTagHelper;
@@ -60,10 +67,10 @@ using Mission9.Models.ViewModels;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c7af6e06fee1083ac3175624fca18c55f3c9f5924298", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c7af6e06fee1083ac3175624fca18c55f3c9f5924499", async() => {
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>Online Book Store</title>\r\n");
                 WriteLiteral("    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c7af6e06fee1083ac3175624fca18c55f3c9f5924700", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c7af6e06fee1083ac3175624fca18c55f3c9f5924901", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -90,9 +97,9 @@ using Mission9.Models.ViewModels;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c7af6e06fee1083ac3175624fca18c55f3c9f5926582", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c7af6e06fee1083ac3175624fca18c55f3c9f5926783", async() => {
                 WriteLiteral("\r\n\r\n    <div class=\"bg-dark text-white p-2\">\r\n        <span class=\"navbar-brand m-lg-2\">BOOK STORE</span>\r\n    </div>\r\n\r\n    <div class=\"row m-1 p-1\">\r\n\r\n        <div id=\"categories\" class=\"col-3\">\r\n            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("vc:category", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c7af6e06fee1083ac3175624fca18c55f3c9f5927075", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("vc:category", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c7af6e06fee1083ac3175624fca18c55f3c9f5927276", async() => {
                 }
                 );
                 __CategoryViewComponentTagHelper = CreateTagHelper<global::AspNetCore.Views_Shared__Layout.__Generated__CategoryViewComponentTagHelper>();

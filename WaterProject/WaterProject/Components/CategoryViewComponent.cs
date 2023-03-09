@@ -18,7 +18,7 @@ namespace Mission9.Components
 
         public IViewComponentResult Invoke()
         {
-            //ViewBag.SelectedCategory = RouteData?.Values["bookCat"];
+            ViewBag.SelectedCategory = RouteData?.Values["bookCat"];
 
             var categories = another.Books
                 .Select(x => x.Category)
