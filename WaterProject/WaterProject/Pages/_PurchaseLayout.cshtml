@@ -1,8 +1,9 @@
 ﻿<!DOCTYPE html>
+
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Online Book Store</title>
+    <title>@ViewBag.Title</title>
     <link href="~/lib/css/bootstrap.css" rel="stylesheet" />
     <script src="~/lib/js/bootstrap.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
@@ -14,10 +15,7 @@
             <span class="navbar-brand m-lg-2">BOOK STORE</span>
         </div>
         <br />
-        @* Here is my bit of extra bootstrap. I made a dropdown/toggle menu. 
-            It currently does not work since the toggle doesn't stay open log enough for you to click on any of the options.
-            But if it did, the links would work and take you to either the Home Page or Cart.
-            This bootstrap was also applied on the "_PurchaseLayout" page as well*@
+        @* Here is my bit of extra bootstrap. I made a dropdown/toggle menu.--more details about it on the Views/Shared/"_Layout" Page*@
         <div class="navbar-header">
             <button class="btn btn-outline-secondary dropdown-toggle text-white" type="button" data-toggle="collapse" data-target=".navbar-collapse">
                 MENU
@@ -33,21 +31,8 @@
         </div>
     </div>
 
-        <div class="row m-1 p-1">
-
-            <div id="categories" class="col-3">
-                <vc:category></vc:category>
-            </div>
-
-            <div class="col-9">
-                <div>
-                    @RenderBody()
-                </div>
-            </div>
-
-        </div>
-
+    <div class="m-1 p-1">
+        @RenderBody()
+    </div>
 </body>
 </html>
-
-
