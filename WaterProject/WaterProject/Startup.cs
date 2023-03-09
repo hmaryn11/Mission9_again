@@ -52,6 +52,24 @@ namespace Mission9
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllerRoute(
+                    "CatPage",
+                    "{bookCat}/Page{pageNum}",
+                    new { Controller = "Home", action = "Index" });
+
+
+                endpoints.MapControllerRoute(
+                    name: "Paging",
+                    pattern: "Page{pageNum}",
+                    defaults: new { Contoller = "Home", action = "Index", pageNum = 1});
+
+
+                endpoints.MapControllerRoute(
+                    "categories",
+                    "{bookCat}",
+                    new { Controller = "Home", action = "Index", pageNum = 1 });
+
+
                 //~~~the default endpoint with go to the index page
                 endpoints.MapDefaultControllerRoute();
             });

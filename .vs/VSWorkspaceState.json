@@ -3,8 +3,11 @@
     "",
     "\\WaterProject",
     "\\WaterProject\\WaterProject",
-    "\\WaterProject\\WaterProject\\Controllers"
+    "\\WaterProject\\WaterProject\\Controllers",
+    "\\WaterProject\\WaterProject\\Infrastructure",
+    "\\WaterProject\\WaterProject\\Views",
+    "\\WaterProject\\WaterProject\\Views\\Home"
   ],
-  "SelectedNode": "\\WaterProject\\WaterProject\\Controllers\\HomeController.cs",
+  "SelectedNode": "\\WaterProject\\WaterProject.sln",
   "PreviewInSolutionExplorer": false
 }

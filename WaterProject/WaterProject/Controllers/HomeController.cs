@@ -21,20 +21,24 @@ namespace Mission9.Controllers
         public int BooksPerPage { get; private set; }
         public object CurrentPage { get; private set; }
 
-        public IActionResult Index(int pageNum = 1) //if nothing else comes in, pagenum=1
+        public IActionResult Index(string bookCat, int pageNum = 1) //if nothing else comes in, pagenum=1
         {
             int pageSize = 10;
 
             var x = new BooksViewModels
             {
                 Books = repo.Books
+                .Where(b=> b.Category == bookCat || bookCat == null)
                 .OrderBy(b => b.Title)
                 .Skip((pageNum - 1) * pageSize)
                 .Take(pageSize),
 
                 PageInfo = new PageInfo
                 {
-                    TotalNumBooks = repo.Books.Count(),
+                    TotalNumBooks = 
+                        (bookCat == null ?
+                            repo.Books.Count()
+                            : repo.Books.Where(x => x.Category == bookCat).Count()),
                     BooksPerPage = pageSize,
                     CurrentPage = pageNum
                 }
