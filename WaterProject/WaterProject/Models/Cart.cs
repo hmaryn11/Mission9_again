@@ -30,7 +30,7 @@ namespace Mission9.Models
         public double CalculateTotal()
         {
             //must find a way to add up all rows instead
-            double sum = Items.Sum(x => x.Quantity * 1);
+            double sum = Items.Sum(x => x.Quantity * x.Book.Price);
          
             return sum;
         }
@@ -40,5 +40,7 @@ namespace Mission9.Models
         public int LineID { get; set; }
         public Book Book { get; set; }
         public int Quantity { get; set; }
+
+        public BookstoreContext Price { get; set; }
     }
 }
