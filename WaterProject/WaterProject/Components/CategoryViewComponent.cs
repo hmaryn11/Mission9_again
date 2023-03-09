@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Mission9.Components
 {
-    public class CategoryViewComponent :ViewComponent
+    public class CategoryViewComponent : ViewComponent
     {
         private IBookStoreRepo another { get; set; }
 
@@ -18,7 +18,7 @@ namespace Mission9.Components
 
         public IViewComponentResult Invoke()
         {
-            ViewBag.SelectedCategory = RouteData?.Values["bookCat"];
+            //ViewBag.SelectedCategory = RouteData?.Values["bookCat"];
 
             var categories = another.Books
                 .Select(x => x.Category)

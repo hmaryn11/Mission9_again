@@ -37,6 +37,8 @@ namespace Mission9
                 options.UseSqlite(Configuration["ConnectionStrings:BookDBConnection"]);
             });
             services.AddScoped<IBookStoreRepo, EFBookStoreRepo>();
+
+            services.AddRazorPages();
         }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -72,6 +74,8 @@ namespace Mission9
 
                 //~~~the default endpoint with go to the index page
                 endpoints.MapDefaultControllerRoute();
+
+                endpoints.MapRazorPages();
             });
         }
     }
