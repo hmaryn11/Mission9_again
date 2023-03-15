@@ -8,7 +8,7 @@ namespace Mission9.Models
     public class Cart
     {
         public List<CartLineItem> Items { get; set; } = new List<CartLineItem>();
-        public void AddItem(Book book, int qty)
+        public virtual void AddItem(Book book, int qty)
         {
             CartLineItem Line = Items
                 .Where(p => p.Book.BookId == book.BookId)
@@ -26,6 +26,16 @@ namespace Mission9.Models
             {
                 Line.Quantity += qty;
             }
+        }
+
+        public virtual void RemoveItem(Book book)
+        {
+            Items.RemoveAll(x => x.Book.BookId == book.BookId);
+        }
+
+        public virtual void ClearCart()
+        {
+            Items.Clear();
         }
         public double CalculateTotal()
         {
