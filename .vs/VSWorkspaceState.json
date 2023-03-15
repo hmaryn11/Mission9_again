@@ -3,14 +3,10 @@
     "",
     "\\WaterProject",
     "\\WaterProject\\WaterProject",
-    "\\WaterProject\\WaterProject\\Components",
     "\\WaterProject\\WaterProject\\Controllers",
-    "\\WaterProject\\WaterProject\\Infrastructure",
     "\\WaterProject\\WaterProject\\Views",
-    "\\WaterProject\\WaterProject\\Views\\Home",
-    "\\WaterProject\\WaterProject\\Views\\Shared",
-    "\\WaterProject\\WaterProject\\Views\\Shared\\Components"
+    "\\WaterProject\\WaterProject\\Views\\Shared"
   ],
-  "SelectedNode": "\\WaterProject\\WaterProject\\Controllers\\HomeController.cs",
+  "SelectedNode": "\\WaterProject\\WaterProject\\Views\\Shared\\ProjSummary.cshtml",
   "PreviewInSolutionExplorer": false
 }
