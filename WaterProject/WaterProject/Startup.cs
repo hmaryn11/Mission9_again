@@ -37,6 +37,7 @@ namespace Mission9
                 options.UseSqlite(Configuration["ConnectionStrings:BookDBConnection"]);
             });
             services.AddScoped<IBookStoreRepo, EFBookStoreRepo>();
+            services.AddScoped<IPurchaseRepo, EFPurchaseRepo>();
 
             services.AddRazorPages();
 
