@@ -3,10 +3,14 @@
     "",
     "\\WaterProject",
     "\\WaterProject\\WaterProject",
-    "\\WaterProject\\WaterProject\\Controllers",
+    "\\WaterProject\\WaterProject\\Components",
+    "\\WaterProject\\WaterProject\\Pages",
     "\\WaterProject\\WaterProject\\Views",
-    "\\WaterProject\\WaterProject\\Views\\Shared"
+    "\\WaterProject\\WaterProject\\Views\\Purchase",
+    "\\WaterProject\\WaterProject\\Views\\Shared",
+    "\\WaterProject\\WaterProject\\Views\\Shared\\Components",
+    "\\WaterProject\\WaterProject\\Views\\Shared\\Components\\Category"
   ],
-  "SelectedNode": "\\WaterProject\\WaterProject\\Views\\Shared\\ProjSummary.cshtml",
+  "SelectedNode": "\\WaterProject\\WaterProject\\Components\\CategoryViewComponent.cs",
   "PreviewInSolutionExplorer": false
 }

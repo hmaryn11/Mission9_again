@@ -18,7 +18,7 @@ namespace Mission9.Models
             : base(options)
         {
         }
-
+        //declaring that the Context file has access to these db tables
         public DbSet<Book> Books { get; set; }
         public DbSet<ActualPurchases> Purchases { get; set; }
     }

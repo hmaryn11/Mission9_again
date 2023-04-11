@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Maryn\\source\\repos\\Mission9\\WaterProject\\WaterProject\\Mission9.csproj": {}
+    "C:\\Users\\Maryn\\Source\\Repos\\Mission9\\WaterProject\\WaterProject\\Mission9.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Maryn\\source\\repos\\Mission9\\WaterProject\\WaterProject\\Mission9.csproj": {
+    "C:\\Users\\Maryn\\Source\\Repos\\Mission9\\WaterProject\\WaterProject\\Mission9.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maryn\\source\\repos\\Mission9\\WaterProject\\WaterProject\\Mission9.csproj",
+        "projectUniqueName": "C:\\Users\\Maryn\\Source\\Repos\\Mission9\\WaterProject\\WaterProject\\Mission9.csproj",
         "projectName": "Mission9",
-        "projectPath": "C:\\Users\\Maryn\\source\\repos\\Mission9\\WaterProject\\WaterProject\\Mission9.csproj",
+        "projectPath": "C:\\Users\\Maryn\\Source\\Repos\\Mission9\\WaterProject\\WaterProject\\Mission9.csproj",
         "packagesPath": "C:\\Users\\Maryn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maryn\\source\\repos\\Mission9\\WaterProject\\WaterProject\\obj\\",
+        "outputPath": "C:\\Users\\Maryn\\Source\\Repos\\Mission9\\WaterProject\\WaterProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Maryn\\AppData\\Roaming\\NuGet\\NuGet.Config",
